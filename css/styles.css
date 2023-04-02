@@ -16,11 +16,13 @@
     --dairy: #fcfcfc;
 }
 body {
+    font-family: Roboto, sans-serif;
 font-family: var(--primary-font);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
+    background-color: var(--white);
 }
 .link {
     text-decoration: none;
@@ -93,6 +95,7 @@ font-family: var(--primary-font);
 
 .hero {
     background-color: var(--navy-blue);
+
     
 }
 
@@ -101,6 +104,9 @@ font-family: var(--primary-font);
             font-size: 56px;
             line-height: 1.07;
             color: var(--white);
+            text-align: center;
+        
+
         
 }
 
@@ -110,6 +116,10 @@ font-family: var(--primary-font);
         border-radius: 4px;
         color: var(--white);
         cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -130,7 +140,8 @@ font-family: var(--primary-font);
 font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
-        color: var(--navy-blue)
+        color: var(--navy-blue);
+        letter-spacing: 0.02em;
 }
 
 .feature-text {}
@@ -143,7 +154,10 @@ font-weight: 500;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
-        color: var(--navy-blue)
+        color: var(--navy-blue);
+        line-height: 1.11;
+        text-align: center;
+        text-transform: capitalize;
 }
 
 .doing-list {}
@@ -161,10 +175,16 @@ font-weight: 500;
     font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
-        color: var(--navy-blue)
+        color: var(--navy-blue);
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
 }
 
-.team-list {}
+.team-list {
+    background-color: var(--white)
+}
 
 .team-item {}
 
@@ -206,6 +226,11 @@ font-weight: 500;
     border: 1px solid var(--cornflower);
         border-radius: 4px;
         cursor: pointer;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
 }
 .filters-button:hover,
 .filters-button:focus {
